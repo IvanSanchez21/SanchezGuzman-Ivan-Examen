@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ofertas Gastronómicas</title>
+    <link rel="stylesheet" href="../../css/estilos.css">
 </head>
+
 <body>
-    <h1>hola mundo</h1>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                
+                <div class="enlaces-header">
+                    <a href="#">Inicio</a>
+                    <a href="#">Contactos</a>
+                    <a href="#">Visión</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="flex flex-wrap">
+                        <a href="../controlador/index.php">Cerrar Sesión</a>
+              
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <section>
+        <img src="../../img/Inicio.png" alt="">
+    </section>
+
+        
+    <section class="about-us">
+        <div class="contenedor1">
+            <center>
+                <h2 class="titulo">Gestión de Restaurante</h2>
+            </center>   
+            <div class="contenedor-articulo">
+            <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-cog"></i>
+                    <h3>Administrar Clientes</h3>
+                    <p>En esta sección usted podra Eliminar,actulizar,agregar y listar los clientes.!</p>
+                    <a href="../../private/controlador/cliente/listar_cliente.php">Ir a Clientes---></a>
+                </div>  
+            
+            <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Administrar Productos</h3>
+                    <p>En esa sección usted podra usted podra Eliminar,actulizar,agregar y listar los productos. </p>
+                    <a href="../../private/controlador/producto/listar_productos.php">Ir a Productos ---></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-code"></i>
+                    <h3>Administrar Restaurantes</h3>
+                    <p>En esta sección usted podra Eliminar,actulizar,agregar y listar los restaurantes.</p>
+                    <a href="../../private/controlador/restaurante/listar_restaurante.php">Ir a Restaurantes---></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- <div class="partFooter">
+            <img src="" alt="">
+        </div> -->
+        
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Pedidos a domicilio</a>
+            <a href="#">Abierto las 24h</a>
+            <a href="#">Domingo con horario restringido</a>
+        </div>
+        
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#"> 1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+        
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="../../js/main.js"></script>
 </body>
+
 </html>
